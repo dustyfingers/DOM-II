@@ -7,6 +7,7 @@ let footer = document.querySelector('.footer');
 let contentSections = document.querySelectorAll('.content-section');
 let logo = document.querySelector('.logo-heading');
 
+
 navbar.addEventListener('click', evt => { evt.target.style.display = 'none' });
 busPic.addEventListener('mouseover', evt => { evt.target.style.border = '2px solid red' });
 btns.forEach(btn => {
